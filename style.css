@@ -18,8 +18,17 @@ body{
 	flex-direction: column;
 }
 
+.container{
+	height: 100%;
+	display: grid;
+	grid-template-columns: repeat(12,1fr);
+	width: 90vw;
+	margin: auto;
+}
+
 header{
 	background-color: aqua;
+	margin-top: 70px;
 }
 
 main{
@@ -29,4 +38,5 @@ main{
 
 footer{
 	background-color: plum;
+	margin-bottom: 24px;
 }
