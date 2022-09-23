@@ -88,8 +88,18 @@ main{
 }
 
 .action{
-	background-color: red;
 	grid-column: 7/-1;
+	place-self: center end;
+	height: 100px;
+	width: 411px;
+	background-color: var(--secondary-color);
+	color: #fff;
+	font-size: 3rem;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 }
 
 footer{
