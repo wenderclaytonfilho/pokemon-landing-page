@@ -75,8 +75,9 @@ main{
 
 .description{
 	grid-column: 1/7;
-	place-self: center start;
+	place-self: start;
 	color: var(--secondary-color);
+	z-index: 1;
 }
 
 .description__title{
@@ -100,6 +101,7 @@ main{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	z-index: 1;
 
 }
 
@@ -108,9 +110,17 @@ main{
 	place-self: center;
 	margin-bottom: 24px;
 	color: var(--secondary-color);
-	font-size :1rem;
+	font-size :1rem;	
 }
 
 .footer__text a{
 	color: var(--secondary-color);
+}
+
+.pikachu-image{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
 }
