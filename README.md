@@ -2,7 +2,7 @@
 
  ![](./prints/desktop.png)
  ![](./prints/Tablet.png)
- ![](.prints/mobile.png)
+ ![](./prints/mobile.png)
 
  ---
 
@@ -27,4 +27,4 @@
 
  ## Autor
 
- - [Wender Clayton](github.com/wenderclaytonfilho)}
+ - [Wender Clayton](github.com/wenderclaytonfilho)
